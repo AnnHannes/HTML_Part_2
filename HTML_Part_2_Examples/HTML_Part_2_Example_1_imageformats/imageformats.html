@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Types of images</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color:#ccc">
+    <!--background color was set inline to indicate transparency.
+   later you learn to do this through CSS, the technique you see here is not maintenance friendly. -->
+    <h1>Working correctly with images</h1>
+
+    <h2>Image with few colours (logo, icon, ...)</h2>
+
+    <h3>GIF</h3>
+    <figure> <img src="star_gif.gif" width="100" height="100" alt="star" /> <img src="star_gif_anim.gif" width="96" height="93" alt="star" />
+        <figcaption>3kB versus 8kB</figcaption>
+    </figure>
+
+    <h3>PNG</h3>
+    <figure>
+        <img src="star_png_8.png" width="100" height="100" alt="star" /> <img src="star_png_32.png" width="100" height="100" alt="star" />
+        <figcaption>2kB versus 5kB</figcaption>
+    </figure>
+
+    <h3>JPG</h3>
+
+    <figure>
+        <img src="star_jpg_40.jpg" width="100" height="100" alt="star" /> <img src="star_jpg_100.jpg" width="100" height="100" alt="star" />
+        <figcaption>2kB versus 8kB</figcaption>
+    </figure>
+
+    <h3>SVG</h3>
+    <figure>
+        <img src="star_svg.svg" width="100" height="100" alt="star" />
+        <figcaption>3kB</figcaption>
+    </figure>
+
+
+    <h2>Image with many colours (photo)</h2>
+
+    <h3>flower_jpg_80.jpg (27 kB)</h3>
+    <p><img src="flower_jpg_80.jpg" width="500" height="335" alt="flower" /></p>
+
+    <h3>flower_png_32.png (264 kB)</h3>
+    <p><img src="flower_png_32.png" width="500" height="335" alt="flower" /></p>
+
+    <h3>flower_png_8.png (45 kB)</h3>
+    <p><img src="flower_png_8.png" width="500" height="335" alt="flower" /></p>
+
+    <h2>Overview</h2>
+    <figure><img src="overview.png" alt="comparison image formats">
+        <figcaption>Comparison GIF - JPG - PNG - SVG</figcaption>
+    </figure>
+</body>
+
+</html>
