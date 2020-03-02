@@ -1,7 +1,7 @@
-# 1ITF HTML Deel 2 Oefeningen en Voorbeelden
-Dit zijn de startbestanden en voorbeelden voor de les **HTML Deel 2** over **Afbeeldingen** voor 1ITF van de Thomas More Hogeschool (campus Geel).
+# 1ITF HTML Part 2 Exercises and examples
+These are the starting files and examples for the lesson **HTML Part 2** about **Pictures** for 1ITF of the Thomas More University of Applied Sciences (campus Geel).
 
 <p align="center">
-    <img src="https://www.thomasmore.be/themes/wundertheme/logo.svg" alt="Thomasm More Kempen" width="300" />
+    <img src="https://thomasmore.be/sites/www.thomasmore.be/files/tm_eng_standaardlogo_web.png" alt="Thomasm More" width="300" />
 </p>
 
